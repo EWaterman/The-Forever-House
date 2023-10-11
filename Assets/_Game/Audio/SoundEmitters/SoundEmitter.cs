@@ -24,8 +24,8 @@ public class SoundEmitter : MonoBehaviour
     public void PlayAudioClip(AudioClip clip, AudioConfigModel settings)
     {
         _audioSource.clip = clip;
-        //settings.ApplyTo(_audioSource);  // don't need custom config currently
-        //_audioSource.transform.position = whereToPlay;  // just play a global sound for now without a position
+        settings.ApplyTo(_audioSource);
+        //_audioSource.transform.position = whereToPlay;
         _audioSource.Play();
 
         StartCoroutine(FinishedPlaying(clip.length));
