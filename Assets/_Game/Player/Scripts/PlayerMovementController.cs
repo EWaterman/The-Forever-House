@@ -33,7 +33,6 @@ public class PlayerMovementController : MonoBehaviour
     void Update()
     {
         // TODO: make it so you don't bounce down slopes https://forum.unity.com/threads/player-bouncing-down-slopes.828093/
-        // TODO: if you're looking down you move slower. Probs cause only grabbing horizontal component? Gotta normalize?
 
         ApplyVerticalForcesToVelocity();
         ApplyHorizontalForcesToVelocity();

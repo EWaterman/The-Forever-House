@@ -41,10 +41,10 @@ public class PlayerTeleporter : MonoBehaviour
     }
 
     /// <summary>
-    /// Overridable. The behaviour for when the player enters the trigger zone of the portal.
+    /// The behaviour for when the player enters the trigger zone of the portal.
     /// By default we simply teleport the player if they're approaching from the correct side.
     /// </summary>
-    protected virtual void OnPlayerTriggerEnter()
+    protected void OnPlayerTriggerEnter()
     {
         if (IsEnteringFromCorrectSide())
         {
