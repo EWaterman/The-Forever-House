@@ -24,12 +24,6 @@ public class PlayerMovementController : MonoBehaviour
         _localRefTransform = _camera.transform;
     }
 
-    void Start()
-    {
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
-    }
-
     void Update()
     {
         // TODO: make it so you don't bounce down slopes https://forum.unity.com/threads/player-bouncing-down-slopes.828093/
