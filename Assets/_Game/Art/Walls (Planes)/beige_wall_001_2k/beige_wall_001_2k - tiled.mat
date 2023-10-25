@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: herringbone_parquet_2k smart
+  m_Name: beige_wall_001_2k - tiled
   m_Shader: {fileID: 4800000, guid: bedb6a27526b1aa4abbf9c90215e632a, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -26,7 +26,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 7699040825965c84bb17918bac363338, type: 3}
+        m_Texture: {fileID: 2800000, guid: 77d6256a44e15394ca1ca79239dabd4e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -46,19 +46,19 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 493d7938a97d1b64aa8151ed84c68a70, type: 3}
-        m_Scale: {x: 0.05, y: 0.05}
+        m_Texture: {fileID: 2800000, guid: b7c023a1b46596e4c829de20600ec461, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 2800000, guid: 3af0e438066e5e94391e0532cf2e9858, type: 3}
+        m_Texture: {fileID: 2800000, guid: 866e063b0da342248820e55cd5a09113, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
-        m_Texture: {fileID: 2800000, guid: 2f55eee8c615f1d4a8149c6c8326703b, type: 3}
+        m_Texture: {fileID: 2800000, guid: b7c023a1b46596e4c829de20600ec461, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
@@ -78,9 +78,9 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
-    - _UVs: 10
+    - _UVs: 5
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 0.93541265, b: 0.89056605, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
